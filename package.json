@@ -1,5 +1,6 @@
 {
   "name": "@patwoz/semantic-release-test",
+  "version": "0.0.0-development",
   "scripts": {
     "lint": "eslint --ignore-path .gitignore --ext .js,.ts,.tsx .",
     "check-types": "tsc --noEmit",
@@ -7,13 +8,14 @@
     "format": "npm run prettier -- --write",
     "check-format": "npm run prettier -- --list-different",
     "validate": "npm-run-all --parallel check-types check-format lint",
-    "build": "tsc"
+    "build": "tsc",
+    "semantic-release": "semantic-release"
   },
   "author": "Patrick Wozniak <email@patwoz.de> (https://patwoz.de)",
   "homepage": "https://github.com/patlux/semantic-release-test.git",
   "repository": {
     "type": "git",
-    "url": "git@github.com:patlux/semantic-release-test.git"
+    "url": "https://github.com/patlux/semantic-release-test.git"
   },
   "license": "MIT",
   "devDependencies": {
@@ -26,6 +28,7 @@
     "lint-staged": "9.5.0",
     "npm-run-all": "4.1.5",
     "prettier": "1.19.1",
-    "typescript": "3.7.3"
+    "typescript": "3.7.3",
+    "semantic-release": "15.13.31"
   }
 }
