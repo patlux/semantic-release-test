@@ -5,3 +5,7 @@ export function test() {
 export function omfg() {
   return 'omfg';
 }
+
+export function sayHello() {
+  console.log('Hello!');
+}
