@@ -8,8 +8,9 @@
     "emitDecoratorMetadata": true,
     "noUnusedLocals": true,
     "pretty": true,
-    "lib": [
-      "esnext"
-    ]
+    "lib": ["esnext"],
+    "forceConsistentCasingInFileNames": true,
+    "removeComments": true,
+    "outDir": "dist"
   }
 }
