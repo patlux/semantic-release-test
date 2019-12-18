@@ -3,5 +3,5 @@ export function test() {
 }
 
 export function omfg() {
-  return undefined;
+  return 'omfg';
 }
