@@ -9,7 +9,8 @@
     "check-format": "npm run prettier -- --list-different",
     "validate": "npm-run-all --parallel check-types check-format lint",
     "build": "tsc",
-    "semantic-release": "semantic-release"
+    "semantic-release": "semantic-release",
+    "prepublish": "npm run build"
   },
   "author": "Patrick Wozniak <email@patwoz.de> (https://patwoz.de)",
   "homepage": "https://github.com/patlux/semantic-release-test.git",
@@ -19,6 +20,8 @@
   },
   "license": "MIT",
   "private": false,
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "2.12.0",
     "@typescript-eslint/parser": "2.12.0",

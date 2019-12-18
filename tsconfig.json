@@ -11,6 +11,8 @@
     "lib": ["esnext"],
     "forceConsistentCasingInFileNames": true,
     "removeComments": true,
-    "outDir": "dist"
-  }
+    "outDir": "dist",
+    "declaration": true
+  },
+  "include": ["src/"]
 }
