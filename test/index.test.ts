@@ -15,3 +15,7 @@ it('should say hello', () => {
   expect(console.log).toBeCalledWith('Hello!');
   mock.mockRestore();
 });
+
+it('should return "It works!"', () => {
+  expect(SemanticReleaseTest.itWorks()).toBe('It works!');
+});

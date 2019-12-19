@@ -9,3 +9,7 @@ export function omfg() {
 export function sayHello() {
   console.log('Hello!');
 }
+
+export function itWorks() {
+  return 'It works!';
+}
