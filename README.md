@@ -6,7 +6,21 @@
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 [![Twitter Follow](https://img.shields.io/twitter/follow/de_patwoz?style=social)](https://twitter.com/de_patwoz)
 
-Just playing with [semantic-release](https://github.com/semantic-release/semantic-release).
+Me just playing with [semantic-release](https://github.com/semantic-release/semantic-release).
+
+## 🔁 Flow
+
+### Local (on your computer)
+
+![Flow local](./docs/flow-local.png)
+
+See [`.huskyrc`](./.huskyrc), [`.lintstagedrc`](./.lintstagedrc), [`package.json`](./package.json), [`commitlint.config.js`](./commitlint.config.js)
+
+### Remote (CI)
+
+![Flow remote](./docs/flow-remote.png)
+
+See [`.github/workflows/nodejs.yml`](./.github/workflows/nodejs.yml)
 
 ## 🔖 License
 
