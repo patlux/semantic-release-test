@@ -9,7 +9,9 @@ it('should return omfg', () => {
 });
 
 it('should say hello', () => {
-  global.console = { ...global.console, log: jest.fn() };
+  const mock = jest.spyOn(console, 'log');
+  console.log = jest.fn();
   SemanticReleaseTest.sayHello();
-  expect(global.console.log).toBeCalledWith('Hello!');
+  expect(console.log).toBeCalledWith('Hello!');
+  mock.mockRestore();
 });
