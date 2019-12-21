@@ -4,7 +4,7 @@
 [![Actions Status](https://github.com/patlux/semantic-release-test/workflows/nodejs/badge.svg)](https://github.com/patlux/semantic-release-test/actions)
 [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
-[![Twitter Follow](https://img.shields.io/twitter/follow/de_patwoz?style=social)](https://twitter.com/de_patwoz)
+[![Twitter Follow](https://img.shields.io/twitter/follow/de_patwoz?style=social)](https://twitter.com/de_patwoz) [![Greenkeeper badge](https://badges.greenkeeper.io/patlux/semantic-release-test.svg)](https://greenkeeper.io/)
 
 Me just playing with [semantic-release](https://github.com/semantic-release/semantic-release).
 
